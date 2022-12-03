@@ -1,2 +1,2 @@
-title: # Vision For Vision - Image to Speech Translation
+# Vision For Vision - Image to Speech Translation
 
