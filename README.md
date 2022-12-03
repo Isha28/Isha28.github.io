@@ -1,5 +1,7 @@
 # Vision For Vision - Image to Speech Translation
 
+#### Erik Pheng Kong Chang, Isha Padmanaban, Lakshmi Muraleedharan Nair
+
 ## Abstract
 
 <p align="justify">The problem we are trying to solve is providing access to digital images for the visually impaired. In 2015, 253 million people were estimated as visually impaired worldwide. They had limited access to the digital world as most of it is reliant on sight. However, one way that visually impaired people navigate the internet is through text to speech applications. We are designing an image to speech solution where the text is coming from an image instead of a script. This required a text recognition solution where we would be able to parse images for letters and words. We are implementing a text to speech solution to read the results of the parsed image.</p>
