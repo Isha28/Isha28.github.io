@@ -17,8 +17,9 @@
 
 #### Step 3: Text to Speech
 <p align="justify">In this final step, the resulting text is sent to the text-to-speech solution. We used an open source TTS solution by Coqui, which is derived from the Mozilla TTS solution. This TTS solution is made up of three components, the TTS model itself, the dataset used, and the vocoder model. We used the pretrained TTS model known as Tacotron2 with Dynamic Convolutional Attention (Tacotron2 DCA). We then used the LJSpeech dataset, which is a public domain english speech dataset and for the vocoder model we chose the Multi-Band MelGAN because it was the fastest model.</p>
+
 ## Results
 
 ## Sources
 <p align="justify">https://github.com/coqui-ai/TTS</p>
-<p align="justify">Ackland P, Resnikoff S, Bourne R. World blindness and visual impairment: despite many successes, the problem is growing. *Community Eye Health*, 2017.</p>
+<p align="justify">Ackland P, Resnikoff S, Bourne R. World blindness and visual impairment: despite many successes, the problem is growing. __Community Eye Health__, 2017.</p>
