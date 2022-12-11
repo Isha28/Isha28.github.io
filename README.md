@@ -22,4 +22,4 @@
 
 ## Sources
 <p align="justify">https://github.com/coqui-ai/TTS</p>
-<p align="justify">Ackland P, Resnikoff S, Bourne R. World blindness and visual impairment: despite many successes, the problem is growing. __Community Eye Health__, 2017.</p>
+<p align="justify">Ackland P, Resnikoff S, Bourne R. World blindness and visual impairment: despite many successes, the problem is growing. <span class="emphasized">Community Eye Health</span>, 2017.</p>
