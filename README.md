@@ -42,14 +42,19 @@
         <th>Input Image</th>
         <th>OCR output</th>
         <th>TTS output</th>
+        <th>Comments</th>
     </tr>
     <tr>
-        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=100 width=100></img></td>
-        <td><img src="handwritten1_preprocess_res.png" alt="" border=3 height=100 width=100></img></td>
+        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
+        <td>This is a handwritten<br>example<br>Write as qooal as you can.</td>
+        <td>TODO: Audio file</td>
+        <td>This is the output from tesseract OCR for the input image (handwritten) without applying any of the pre-processing techniques. Output is not accuarte.</td>
     </tr>
     <tr>
-        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=100 width=100></img></td>
-        <td><img src="handwritten1_preprocess_res.png" alt="" border=3 height=100 width=100></img></td>
+        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></img></td>
+        <td>This is a handwritten <br>example <br>Write as good as you can.</td>
+        <td>TODO: Audio file</td>
+        <td>This is the output from tesseract OCR for the input image (handwritten) after our pre-processing techniques are applied. Output is accuarte.</td>
     </tr>
 </table>
 
@@ -66,6 +71,6 @@
   <li>Karun Somasunder M, Amal J.S, Gopal Gopakumar, Suraj V Thomas, and Keerthi Krishnan. Text to speech conversion using google vision api. National Conference on Smart Systems and Technologies, 2021.</li>
   <li>Yasuhisa Fujii. Optical character recognition research at google. IEEE 7th Global Conference on Consumer Electronics (GCCE), 2018.</li>
   <li>Yuxuan Wang, RJ Skerry-Ryan, Daisy Stanton, Yonghui Wu, Ron J. Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio†, Quoc Le, Yannis Agiomyrgiannakis, Rob Clark, and Rif A. Saurous. Tacotron: a fully end-toend text-to-speech synthesis model. arXiv preprint arXiv:1703.10135, 2017.</li>
-  <li><a href="https://github.com/tesseractocr/tesseract">https://github.com/tesseractocr/tesseract</a></li>
+  <li><a href="https://github.com/tesseract-ocr/tesseract">https://github.com/tesseract-ocr/tesseract</a></li>
   <li>Jian Zhang, Renhong Cheng, Kai Wang, Hong Zhao, “Research on the text detection and extration from complex images”, Fourth International Conference on Emerging Intelligent Data and Web Technologies. Vol. 10, 2013, Page no. 708-713.</li>
 </ol>
