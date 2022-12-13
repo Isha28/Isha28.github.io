@@ -57,22 +57,22 @@
         <td>Proposed image pre-processing is applied. Tesseract ouput is accurate.</td>
     </tr>
     <tr>
+        <td><img src="print_preprocess.png" alt="" border=3 height=150 width=300></td>
+        <td>This is a lot of 12 point text to test the
+          ocr code and see if it works on all types
+          of file format.<br>The quick brown dog jumped over the
+          lazy fox. The quick brown dog jumped
+          over the lazy fox. The quick brown dog
+          jumped over the lazy fox. The quick
+          brown dog jumped over the lazy fox.</td>
+        <td>TODO: Audio file</td>
+        <td>Testing our solution in printed texts.</td>
+    </tr>
+    <tr>
         <td><img src="handwritten2_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>How jo Quickly Turn<br>Your Own Handwriting<br>Into a Font</td>
         <td>TODO: Audio file</td>
         <td>Testing our solution in handwritten texts.</td>
-    </tr>
-    <tr>
-        <td><img src="print_preprocess.png" alt="" border=3 height=150 width=300></td>
-        <td>This is a lot of 12 point text to test the<br>
-          ocr code and see if it works on all types<br>
-          of file format.<br><br>The quick brown dog jumped over the<br>
-          lazy fox. The quick brown dog jumped<br>
-          over the lazy fox. The quick brown dog<br>
-          jumped over the lazy fox. The quick<br>
-          brown dog jumped over the lazy fox.</td>
-        <td>TODO: Audio file</td>
-        <td>Testing our solution in printed texts.</td>
     </tr>
 </table>
 
