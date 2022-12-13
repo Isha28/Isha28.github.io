@@ -25,6 +25,7 @@ Text is extracted from images currently using OpenCV OCR. This OCR utilizes a de
   <li><strong>Threshold and Binarization:</strong>This step converts the grayscale image into a binary image with only black and white color. This is done so that Tesseract OCR can identify text easily.</li> <!-- For every pixel, the same threshold value is applied. If the pixel value is smaller than the threshold, it is set to 0, otherwise it is set to a maximum value. -->
   <li><strong>Noise Removal:</strong>.</li>
 </ul>
+</p>
 
 #### Step 2: Image to Text
 <p align="justify">We used open source Tesseract Optical Character Recognition engine for obtaining text from images. This library is proven to provide better quality output. We provided the required configuration settings in a Python program to read through categories such as texts, numbers and special characters from images and output them with acceptable level of accuracy. This needed trial and error effort to find the right configuration for each of the categories. We are tested the code with rich set of images including images with short words, magazines, and handwritten notes to validate the correctness of the module.</p>
