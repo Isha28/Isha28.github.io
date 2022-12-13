@@ -10,20 +10,23 @@
 
 ## Current Solutions
 #### Image Pre-processing
+<p>Low resolution, low contrast, high noise, and distortions are some challenges faced while retrieving text from images. The input images should be enhanced to
+obtain the exact text. One way of achieving this is by using computer vision OpenCV and Python libraries for Image Processing. Karun et. al. [3] explored the idea of extracting text from an image in a dynamic low light environment after eliminating noise. After capturing the input image, Fujii et al. [4] converted it to a gray scale image and then applied the required filtering with the help of Gaussian filter to reduce noise. We are incorporating image pre-processing steps such as thresholding and noise removal in our project to get accurate text from the image.</p>
 
 #### Image to Text
-Text is extracted from images currently using OpenCV OCR. This OCR utilizes a deep learning model for text recognition that is highly accurate. But it requires the images to be captured in certain angles which is not ideal in real world.
+<p>Text is extracted from images currently using OpenCV OCR. This OCR utilizes a deep learning model for text recognition that is highly accurate. But it requires the images to be captured in certain angles which is not ideal in real world.</p>
 
 #### Text to Speech
-
+Yuxuan et al. [5] proposed a text-to-speech (TTS) model named Tacotron that is end-to-end and is capable of generating speech directly from characters. When text and its corresponding audio are given, the TTS model is trained completely from scratch to convert a new text file to audio. We are using open source TTS solution by Mozilla in our project for text-to-speech translation.
 
 ## Proposed Solution
 #### Step 1: Image Pre-processing
 <p align="justify">Below are the important pre-processing techniques we applied on the input image. We are using the OpenCV python package for this purpose.
 <ul>
-  <li><strong>Grayscale Conversion:</strong>We are using OpenCV cvtColor function to convert the colored image to grayscale image.</li>
-  <li><strong>Threshold and Binarization:</strong>This step converts the grayscale image into a binary image with only black and white color. This is done so that Tesseract OCR can identify text easily.</li> <!-- For every pixel, the same threshold value is applied. If the pixel value is smaller than the threshold, it is set to 0, otherwise it is set to a maximum value. -->
-  <li><strong>Noise Removal:</strong>.</li>
+  <li><strong>Grayscale Conversion : </strong>We are using OpenCV cvtColor function to convert the colored image to grayscale image.</li>
+  <li><strong>Threshold and Binarization : </strong>This step converts the grayscale image into a binary image with only black and white color. This is done so that Tesseract OCR can identify text easily.</li> <!-- For every pixel, the same threshold value is applied. If the pixel value is smaller than the threshold, it is set to 0, otherwise it is set to a maximum value. -->
+  <li><strong>Noise Removal : </strong>We used openCV erode and dilate method to remove small white noises and increase the object area of the input image. We applied median blur filtering technique to preserve the edges of image while removing noise.</li>
+  <li><strong> </strong> </li>
 </ul>
 </p>
 
@@ -36,5 +39,10 @@ Text is extracted from images currently using OpenCV OCR. This OCR utilizes a de
 ## Results
 
 ## Sources
-<p align="justify">https://github.com/coqui-ai/TTS</p>
-<p align="justify">Ackland P, Resnikoff S, Bourne R. World blindness and visual impairment: despite many successes, the problem is growing. <em>Community Eye Health</em>, 2017.</p>
+<ol>
+  <li>https://github.com/coqui-ai/TTS</li>
+  <li>Ackland P, Resnikoff S, Bourne R. World blindness and visual impairment: despite many successes, the problem is growing. <em>Community Eye Health</em>, 2017.</li>
+  <li>Karun Somasunder M, Amal J.S, Gopal Gopakumar, Suraj V Thomas, and Keerthi Krishnan. Text to speech conversion using google vision api. National Conference on Smart Systems and Technologies, 2021.</li>
+  <li>Yasuhisa Fujii. Optical character recognition research at google. IEEE 7th Global Conference on Consumer Electronics (GCCE), 2018.</li>
+  <li>Yuxuan Wang, RJ Skerry-Ryan, Daisy Stanton, Yonghui Wu, Ron J. Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio†, Quoc Le, Yannis Agiomyrgiannakis, Rob Clark, and Rif A. Saurous. Tacotron: a fully end-toend text-to-speech synthesis model. arXiv preprint arXiv:1703.10135, 2017.</li>
+</ol>
