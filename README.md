@@ -69,6 +69,16 @@
         <td>Testing our solution in printed texts.</td>
     </tr>
     <tr>
+        <td><img src="menu.jpg" alt="" border=3 height=150 width=300></td>
+        <td>FOOD ALLERGY NOTICE<br>
+        If you have a food allergy or<br>
+        a special dietary requirement<br>
+        please inform a member of st<br>
+        Thank You</td>
+        <td>TODO: Audio file</td>
+        <td>Real world signs/message testing</td>
+    </tr>
+    <tr>
         <td><img src="handwritten2_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>How jo Quickly Turn<br>Your Own Handwriting<br>Into a Font</td>
         <td>TODO: Audio file</td>
