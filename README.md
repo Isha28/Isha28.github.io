@@ -44,8 +44,8 @@
         <th>TTS output</th>
     </tr>
     <tr>
-        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=400 width=400></img></td>
-        <td>This is a handwritten example Write as good as you can.</td>
+        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></img></td>
+        <td>This is a handwritten <br>example <br>Write as good as you can.</td>
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=100 width=100></img></td>
