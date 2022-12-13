@@ -46,15 +46,21 @@
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
-        <td>This is a handwritten<br>example<br>Write as qooal as you can.</td>
+        <td>This is a handwritten<br>example<br>Write as <strong>qooal</strong> as you can.</td>
         <td>TODO: Audio file</td>
-        <td>This is the output from tesseract OCR for the input image (handwritten) without applying any of the pre-processing techniques. Output is not accuarte.</td>
+        <td>Image pre-processing is not done. Tesseract ouput is not accurate.</td>
     </tr>
     <tr>
-        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></img></td>
+        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
         <td>TODO: Audio file</td>
-        <td>This is the output from tesseract OCR for the input image (handwritten) after our pre-processing techniques are applied. Output is accuarte.</td>
+        <td>Proposed image pre-processing is applied. Tesseract ouput is accurate.</td>
+    </tr>
+    <tr>
+        <td><img src="handwritten2_preprocess.png" alt="" border=3 height=150 width=300></td>
+        <td>How jo Quickly Turn<br>Your Own Handwriting<br>Into a Font</td>
+        <td>TODO: Audio file</td>
+        <td>Testing our solution in handwritten texts.</td>
     </tr>
 </table>
 
