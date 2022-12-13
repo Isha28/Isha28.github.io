@@ -46,11 +46,15 @@
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
-        <td>This is a handwritten <br>example <br>Write as good as you can.</td>
+        <td>This is a handwritten<br>example<br>Write as qooal as you can.</td>
+        <td>TODO: Audio file</td>
+        <td>This is the output from tesseract OCR for the input image (handwritten) without applying any of the pre-processing techniques. Output is not accuarte.</td>
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></img></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
+        <td>TODO: Audio file</td>
+        <td>This is the output from tesseract OCR for the input image (handwritten) after our pre-processing techniques are applied. Output is accuarte.</td>
     </tr>
 </table>
 
