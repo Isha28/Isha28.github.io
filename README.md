@@ -85,6 +85,21 @@
         <td>Real world signs</td>
     </tr>
     <tr>
+        <td><img src="para.jpg" alt="" border=3 height=150 width=300></td>
+        <td>‘Health is wealth’ is a very famous<br>
+        saying which means that where there is<br>
+        health there is wealth. A healthy person<br>
+        has the power to achieve everything in<br>
+        life.<br>
+        Being healthy and fit just doesn’t mean<br>
+        being physical fitness but it the overall<br>
+        fitness that is emotionally, socially, and<br>
+        mentally. A healthy body destroys all the<br>
+        negativity.</td>
+        <td>TODO: Audio file</td>
+        <td>Articles</td>
+    </tr>
+    <tr>
         <td><img src="handwritten2_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>How jo Quickly Turn<br>Your Own Handwriting<br>Into a Font</td>
         <td>TODO: Audio file</td>
