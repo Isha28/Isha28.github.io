@@ -49,7 +49,7 @@
         <td>This is a handwritten<br>example<br>Write as qooal as you can.</td>
         <td>
           <audio controls> 
-            <source src="https://github.com/Isha28/Isha28.github.io/raw/main/handwritten1_preprocess.mp4" type="audio/mp4">
+            <source src="handwritten1_preprocess.mp4" type="audio/mp4">
           </audio>
         </td>
         <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
@@ -73,7 +73,11 @@
           over the lazy fox. The quick brown dog<br>
           jumped over the lazy fox. The quick<br>
           brown dog jumped over the lazy fox.</td>
-        <td>https://user-images.githubusercontent.com/107062967/207509404-c6e2bfe3-ba17-4870-ab40-fdfd8c81a1c2.mp4</td>
+        <td>
+	  <audio controls>
+            <source src="print_preprocess.mp4" type="audio/mp4">
+          </audio>
+        </td>
         <td>Printed text</td>
     </tr>
     <tr>
@@ -88,7 +92,11 @@
         fitness that is emotionally, socially, and<br>
         mentally. A healthy body destroys all the<br>
         negativity.</td>
-        <td>https://user-images.githubusercontent.com/107062967/207510362-03c402c7-410f-4532-b87f-bd1d19d8793d.mp4</td>
+	<td>
+	 <audio controls>
+            <source src="para.mp4" type="audio/mp4">
+          </audio>
+        </td>
         <td>Articles</td>
     </tr>
     <tr>
@@ -98,31 +106,34 @@
         a special dietary requirement<br>
         please inform a member of st<br>
         Thank You</td>
-        <td>https://user-images.githubusercontent.com/107062967/207509500-75be3646-c009-4023-9de0-3feb028cb5b2.mp4</td>
+	<td>
+         <audio controls>
+            <source src="menu.mp4" type="audio/mp4">
+          </audio>
+        </td>
         <td>Real world signs</td>
     </tr>
     <tr>
         <td><img src="sign.jpg" alt="" border=3 height=150 width=300></td>
         <td>ROAD CLOSED</td>
-        <td>https://user-images.githubusercontent.com/107062967/207509540-fdfae128-be15-41da-b93f-43814c5cc95c.mp4</td>
+	<td>
+         <audio controls>
+            <source src="sign.mp4" type="audio/mp4">
+          </audio>
+        </td>
         <td>Real world signs</td>
     </tr>
     <tr>
         <td><img src="handwritten2_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>How jo Quickly Turn<br>Your Own Handwriting<br>Into a Font</td>
-        <td>https://user-images.githubusercontent.com/107062967/207509561-b022b95e-2661-4c0b-80ce-e5f31fc94a66.mp4</td>
+	<td>
+         <audio controls>
+            <source src="handwritten2_preprocess.mp4" type="audio/mp4">
+          </audio>
+        </td>
         <td>Handwritten texts</td>
     </tr>
 </table>
-
-https://user-images.githubusercontent.com/107062967/207510664-9529644a-1c5e-4b83-b108-f0e97825df0f.mp4
-
-https://user-images.githubusercontent.com/107062967/207509561-b022b95e-2661-4c0b-80ce-e5f31fc94a66.mp4
-
-<audio controls> 
-    <source src="https://github.com/Isha28/Isha28.github.io/raw/main/handwritten1_preprocess.mp4" type="audio/mp4">
-</audio>
-
 
 ## Evaluation
 <p align="justify">We evaluated the accuracy of text retrieved from image using recognition rate, and error rate. Our OCR model performance is evaluated by calculating Normalized Character Error Rate (CERNorm) and Word Error Rate (WER). These metrics show the extent to which our OCR module transcribed text and how the ground truth text differ from each other. CER and WER represent the number of character/word substitutions or deletions, or insertions needed to transform one word/sentence into another respectively. Both of these quantitative metric systems are based on the Levenshtein distance.<br>
