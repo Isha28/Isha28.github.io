@@ -80,9 +80,10 @@
         fitness that is emotionally, socially, and<br>
         mentally. A healthy body destroys all the<br>
         negativity.</td>
+        <td>https://user-images.githubusercontent.com/107062967/207510362-03c402c7-410f-4532-b87f-bd1d19d8793d.mp4</td>
         <td>Articles</td>
     </tr>
-    https://user-images.githubusercontent.com/107062967/207510362-03c402c7-410f-4532-b87f-bd1d19d8793d.mp4
+
     <tr>
         <td><img src="menu.jpg" alt="" border=3 height=150 width=300></td>
         <td>FOOD ALLERGY NOTICE<br>
@@ -108,6 +109,10 @@
 </table>
 
 ## Evaluation
+
+
+https://user-images.githubusercontent.com/107062967/207510664-9529644a-1c5e-4b83-b108-f0e97825df0f.mp4
+
 
 ### Image to Text
 
