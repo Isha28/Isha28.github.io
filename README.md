@@ -46,12 +46,12 @@
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
-        <td>This is a handwritten<br>example<br>Write as <strong>qooal</strong> as you can.</td>
+        <td>This is a handwritten<br>example<br>Write as qooal as you can.</td>
         <td>
           <audio controls> 
             <source src="https://github.com/Isha28/Isha28.github.io/raw/main/handwritten1_preprocess.mp4" type="audio/mp4">
           </audio>
-         </td>
+        </td>
         <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@
           <audio controls> 
             <source src="handwritten1_preprocess_res.mp4" type="audio/mp4">
           </audio>
-         </td>
+        </td>
         <td>Handwritten text. Proposed <br>image pre-processing is applied. <br>Tesseract ouput is accurate. <br>Shows the importance of our <br>pre-processing techniques</td>
     </tr>
     <tr>
@@ -91,7 +91,6 @@
         <td>https://user-images.githubusercontent.com/107062967/207510362-03c402c7-410f-4532-b87f-bd1d19d8793d.mp4</td>
         <td>Articles</td>
     </tr>
-
     <tr>
         <td><img src="menu.jpg" alt="" border=3 height=150 width=300></td>
         <td>FOOD ALLERGY NOTICE<br>
@@ -126,19 +125,12 @@ https://user-images.githubusercontent.com/107062967/207509561-b022b95e-2661-4c0b
 
 
 ## Evaluation
-<p align="justify">We evaluated the accuracy of text retrieved from image using recognition rate, and error rate. 
-
-Our OCR model performance is evaluated by calculating Normalized Character Error Rate (CERNorm) and Word Error Rate (WER). 
-These metrics show the extent to which our OCR module transcribed text and how the ground truth text differ from each other.
-CER and WER represent the number of character/word substitutions or deletions, or insertions needed to transform one 
-word/sentence into another respectively. Both of these quantitative metric systems are based on the Levenshtein distance.
+<p align="justify">We evaluated the accuracy of text retrieved from image using recognition rate, and error rate. Our OCR model performance is evaluated by calculating Normalized Character Error Rate (CERNorm) and Word Error Rate (WER). These metrics show the extent to which our OCR module transcribed text and how the ground truth text differ from each other. CER and WER represent the number of character/word substitutions or deletions, or insertions needed to transform one word/sentence into another respectively. Both of these quantitative metric systems are based on the Levenshtein distance.
 
 <img src="formula1.png" alt="" border=3 height=50 width=100>
 <img src="formula2.png" alt="" border=3 height=50 width=100>
   
-We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to 
-evaluate our solution. The dataset also contains difficult images, like images
-with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
+We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
 score of 6.17. Our solution achieved an accuracy of around 88.33% in terms of letter recognition rate over the testing dataset.</p>
 
 ## References
