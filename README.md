@@ -54,7 +54,7 @@
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
         <td>TODO: Audio file</td>
-        <td>Handwritten text. Proposed image pre-processing is applied. Tesseract ouput is accurate.</td>
+        <td>Handwritten text. Proposed image pre-processing is applied. Tesseract ouput is accurate. Shows the importance of our pre-processing techniques</td>
     </tr>
     <tr>
         <td><img src="print_preprocess.png" alt="" border=3 height=150 width=300></td>
