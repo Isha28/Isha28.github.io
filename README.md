@@ -49,7 +49,7 @@
         <td>This is a handwritten<br>example<br>Write as <strong>qooal</strong> as you can.</td>
         <td>
           <audio controls> 
-            <source src="https://github.com/Isha28/Isha28.github.io/raw/main/handwritten1_preprocess.mp4" type="audio/ogg">
+            <source src="https://github.com/Isha28/Isha28.github.io/raw/main/handwritten1_preprocess.mp4" type="audio/mp4">
           </audio>
          </td>
         <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
@@ -57,7 +57,11 @@
     <tr>
         <td><img src="handwritten1_preprocess_res.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
-        <td>https://user-images.githubusercontent.com/107062967/207509373-9e2bb40e-2dc7-4d39-a3fa-a38b78731803.mp4</td>
+        <td>
+          <audio controls> 
+            <source src="handwritten1_preprocess_res.mp4" type="audio/mp4">
+          </audio>
+         </td>
         <td>Handwritten text. Proposed <br>image pre-processing is applied. <br>Tesseract ouput is accurate. <br>Shows the importance of our <br>pre-processing techniques</td>
     </tr>
     <tr>
