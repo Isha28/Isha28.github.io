@@ -125,10 +125,10 @@ https://user-images.githubusercontent.com/107062967/207509561-b022b95e-2661-4c0b
 
 
 ## Evaluation
-<p align="justify">We evaluated the accuracy of text retrieved from image using recognition rate, and error rate. Our OCR model performance is evaluated by calculating Normalized Character Error Rate (CERNorm) and Word Error Rate (WER). These metrics show the extent to which our OCR module transcribed text and how the ground truth text differ from each other. CER and WER represent the number of character/word substitutions or deletions, or insertions needed to transform one word/sentence into another respectively. Both of these quantitative metric systems are based on the Levenshtein distance.
+<p align="justify">We evaluated the accuracy of text retrieved from image using recognition rate, and error rate. Our OCR model performance is evaluated by calculating Normalized Character Error Rate (CERNorm) and Word Error Rate (WER). These metrics show the extent to which our OCR module transcribed text and how the ground truth text differ from each other. CER and WER represent the number of character/word substitutions or deletions, or insertions needed to transform one word/sentence into another respectively. Both of these quantitative metric systems are based on the Levenshtein distance.<br>
 
-<img src="formula1.png" alt="" border=3 height=50 width=100>
-<img src="formula2.png" alt="" border=3 height=50 width=100>
+<center><img src="formula1.png" alt="" border=3 height=50 width=100></center><br>
+<center><img src="formula2.png" alt="" border=3 height=50 width=100></center><br>
   
 We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
 score of 6.17. Our solution achieved an accuracy of around 88.33% in terms of letter recognition rate over the testing dataset.</p>
