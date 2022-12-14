@@ -47,7 +47,7 @@
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten<br>example<br>Write as <strong>qooal</strong> as you can.</td>
-        <td>https://user-images.githubusercontent.com/107062967/207509274-18789174-c710-4a97-b6ad-4926395db300.mp4</td>
+        <td><audio src="handwritten1_preprocess.mp4"></td>
         <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
     </tr>
     <tr>
