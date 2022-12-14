@@ -48,13 +48,13 @@
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten<br>example<br>Write as <strong>qooal</strong> as you can.</td>
         <td>TODO: Audio file</td>
-        <td>Handwritten text. Image pre-processing is not done. Tesseract ouput is not accurate.</td>
+        <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
         <td>TODO: Audio file</td>
-        <td>Handwritten text. Proposed image pre-processing is applied. Tesseract ouput is accurate. Shows the importance of our pre-processing techniques</td>
+        <td>Handwritten text. Proposed <br>image pre-processing is applied. <br>Tesseract ouput is accurate. <br>Shows the importance of our <br>pre-processing techniques</td>
     </tr>
     <tr>
         <td><img src="print_preprocess.png" alt="" border=3 height=150 width=300></td>
@@ -67,6 +67,21 @@
           brown dog jumped over the lazy fox.</td>
         <td>TODO: Audio file</td>
         <td>Printed text</td>
+    </tr>
+    <tr>
+        <td><img src="para.jpg" alt="" border=3 height=150 width=300></td>
+        <td>‘Health is wealth’ is a very famous<br>
+        saying which means that where there is<br>
+        health there is wealth. A healthy person<br>
+        has the power to achieve everything in<br>
+        life.<br>
+        Being healthy and fit just doesn’t mean<br>
+        being physical fitness but it the overall<br>
+        fitness that is emotionally, socially, and<br>
+        mentally. A healthy body destroys all the<br>
+        negativity.</td>
+        <td>TODO: Audio file</td>
+        <td>Articles</td>
     </tr>
     <tr>
         <td><img src="menu.jpg" alt="" border=3 height=150 width=300></td>
@@ -83,21 +98,6 @@
         <td>ROAD CLOSED</td>
         <td>TODO: Audio file</td>
         <td>Real world signs</td>
-    </tr>
-    <tr>
-        <td><img src="para.jpg" alt="" border=3 height=150 width=300></td>
-        <td>‘Health is wealth’ is a very famous<br>
-        saying which means that where there is<br>
-        health there is wealth. A healthy person<br>
-        has the power to achieve everything in<br>
-        life.<br>
-        Being healthy and fit just doesn’t mean<br>
-        being physical fitness but it the overall<br>
-        fitness that is emotionally, socially, and<br>
-        mentally. A healthy body destroys all the<br>
-        negativity.</td>
-        <td>TODO: Audio file</td>
-        <td>Articles</td>
     </tr>
     <tr>
         <td><img src="handwritten2_preprocess.png" alt="" border=3 height=150 width=300></td>
