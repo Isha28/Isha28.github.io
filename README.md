@@ -24,9 +24,9 @@
 ### Step 1: Image Pre-processing
 <p align="justify">Below are the important pre-processing techniques we applied on the input image to enhance the quality of the image and extract the right text. We are using the OpenCV python package for this purpose. This step will greatly improve user experience and eliminate some of the current limitations of the OCR systems.</p>
 <ul>
-  <li><strong>Grayscale Conversion : </strong>We are using OpenCV cvtColor function to convert the colored image to grayscale image.</li>
-  <li><strong>Threshold and Binarization : </strong>This step converts the grayscale image into a binary image with only black and white color. This is done so that Tesseract OCR can identify text easily.</li> <!-- For every pixel, the same threshold value is applied. If the pixel value is smaller than the threshold, it is set to 0, otherwise it is set to a maximum value. -->
-  <li><strong>Noise Removal : </strong>We used openCV erode and dilate method to remove small white noises and increase the object area of the input image. We applied median blur filtering technique to preserve the edges of image while removing noise.</li>
+  <li>Grayscale Conversion : We are using OpenCV cvtColor function to convert the colored image to grayscale image.</li>
+  <li>Threshold and Binarization : This step converts the grayscale image into a binary image with only black and white color. This is done so that Tesseract OCR can identify text easily.</li> <!-- For every pixel, the same threshold value is applied. If the pixel value is smaller than the threshold, it is set to 0, otherwise it is set to a maximum value. -->
+  <li>Noise Removal : We used openCV erode and dilate method to remove small white noises and increase the object area of the input image. We applied median blur filtering technique to preserve the edges of image while removing noise.</li>
 </ul>
 
 ### Step 2: Image to Text
@@ -140,7 +140,16 @@
 
 <center><img src="formula1.png" alt="" border=3 height=50 width=100></center><br>
 <center><img src="formula2.png" alt="" border=3 height=50 width=100></center><br>
-  
+ 
+where,
+<ul>
+ <li>S/Sw : Number of substitution of characters/words</li>
+ <li>D/Dw : Number of deletion of characters/words</li>
+ <li>I/Iw : Number of insertion of characters/words</li>
+ <li>C : Number of correct characters in case of CER(Norm)</li>
+ <li>Nw : Total number of words in the reference in case of WER</li>
+</ul>
+
 We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
 score of 6.17. Our solution achieved an accuracy of around 88.33% in terms of letter recognition rate over the testing dataset.</p>
 
