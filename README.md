@@ -48,13 +48,13 @@
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten<br>example<br>Write as <strong>qooal</strong> as you can.</td>
         <td>TODO: Audio file</td>
-        <td>Image pre-processing is not done. Tesseract ouput is not accurate.</td>
+        <td>Handwritten text. Image pre-processing is not done. Tesseract ouput is not accurate.</td>
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
         <td>TODO: Audio file</td>
-        <td>Proposed image pre-processing is applied. Tesseract ouput is accurate.</td>
+        <td>Handwritten text. Proposed image pre-processing is applied. Tesseract ouput is accurate.</td>
     </tr>
     <tr>
         <td><img src="print_preprocess.png" alt="" border=3 height=150 width=300></td>
@@ -66,7 +66,7 @@
           jumped over the lazy fox. The quick<br>
           brown dog jumped over the lazy fox.</td>
         <td>TODO: Audio file</td>
-        <td>Testing our solution in printed texts.</td>
+        <td>Printed text</td>
     </tr>
     <tr>
         <td><img src="menu.jpg" alt="" border=3 height=150 width=300></td>
@@ -76,13 +76,19 @@
         please inform a member of st<br>
         Thank You</td>
         <td>TODO: Audio file</td>
-        <td>Real world signs/message testing</td>
+        <td>Real world signs</td>
+    </tr>
+    <tr>
+        <td><img src="sign.jpg" alt="" border=3 height=150 width=300></td>
+        <td>ROAD CLOSED</td>
+        <td>TODO: Audio file</td>
+        <td>Real world signs</td>
     </tr>
     <tr>
         <td><img src="handwritten2_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>How jo Quickly Turn<br>Your Own Handwriting<br>Into a Font</td>
         <td>TODO: Audio file</td>
-        <td>Testing our solution in handwritten texts.</td>
+        <td>Handwritten texts</td>
     </tr>
 </table>
 
