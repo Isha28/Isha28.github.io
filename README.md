@@ -55,7 +55,7 @@
         <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
     </tr>
     <tr>
-        <td><img src="handwritten1_preprocess_res.png" alt="" border=3 height=150 width=300></td>
+        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
         <td>
           <audio controls> 
@@ -151,7 +151,7 @@ where,
 </ul>
 
 We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
-score of 6.17. Our solution achieved an accuracy of around 88.33% in terms of letter recognition rate over the testing dataset.</p>
+score of 6.58. Our solution achieved an accuracy of around 88.33% in terms of letter recognition rate over the testing dataset.</p>
 
 ## References
 <ol>
