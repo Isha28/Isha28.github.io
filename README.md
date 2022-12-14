@@ -47,21 +47,13 @@
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten<br>example<br>Write as <strong>qooal</strong> as you can.</td>
-        <td>TODO: Audio file</td>
-
-https://user-images.githubusercontent.com/107062967/207509274-18789174-c710-4a97-b6ad-4926395db300.mp4
-
-
+        <td>(https://user-images.githubusercontent.com/107062967/207509274-18789174-c710-4a97-b6ad-4926395db300.mp4)</td>
         <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess_res.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
-        <td>TODO: Audio file</td>
-
-https://user-images.githubusercontent.com/107062967/207509373-9e2bb40e-2dc7-4d39-a3fa-a38b78731803.mp4
-
-
+        <td>(https://user-images.githubusercontent.com/107062967/207509373-9e2bb40e-2dc7-4d39-a3fa-a38b78731803.mp4)</td>
         <td>Handwritten text. Proposed <br>image pre-processing is applied. <br>Tesseract ouput is accurate. <br>Shows the importance of our <br>pre-processing techniques</td>
     </tr>
     <tr>
@@ -73,11 +65,7 @@ https://user-images.githubusercontent.com/107062967/207509373-9e2bb40e-2dc7-4d39
           over the lazy fox. The quick brown dog<br>
           jumped over the lazy fox. The quick<br>
           brown dog jumped over the lazy fox.</td>
-        <td>TODO: Audio file</td>
-
-https://user-images.githubusercontent.com/107062967/207509404-c6e2bfe3-ba17-4870-ab40-fdfd8c81a1c2.mp4
-
-
+        <td>(https://user-images.githubusercontent.com/107062967/207509404-c6e2bfe3-ba17-4870-ab40-fdfd8c81a1c2.mp4)</td>
         <td>Printed text</td>
     </tr>
     <tr>
@@ -102,31 +90,19 @@ https://user-images.githubusercontent.com/107062967/207509404-c6e2bfe3-ba17-4870
         a special dietary requirement<br>
         please inform a member of st<br>
         Thank You</td>
-        <td>TODO: Audio file</td>
-
-https://user-images.githubusercontent.com/107062967/207509500-75be3646-c009-4023-9de0-3feb028cb5b2.mp4
-
-
+        <td>(https://user-images.githubusercontent.com/107062967/207509500-75be3646-c009-4023-9de0-3feb028cb5b2.mp4)</td>
         <td>Real world signs</td>
     </tr>
     <tr>
         <td><img src="sign.jpg" alt="" border=3 height=150 width=300></td>
         <td>ROAD CLOSED</td>
-
-https://user-images.githubusercontent.com/107062967/207509540-fdfae128-be15-41da-b93f-43814c5cc95c.mp4
-
-
-        <td>TODO: Audio file</td>
+        <td>https://user-images.githubusercontent.com/107062967/207509540-fdfae128-be15-41da-b93f-43814c5cc95c.mp4</td>
         <td>Real world signs</td>
     </tr>
     <tr>
         <td><img src="handwritten2_preprocess.png" alt="" border=3 height=150 width=300></td>
         <td>How jo Quickly Turn<br>Your Own Handwriting<br>Into a Font</td>
-        <td>TODO: Audio file</td>
-
-https://user-images.githubusercontent.com/107062967/207509561-b022b95e-2661-4c0b-80ce-e5f31fc94a66.mp4
-
-
+        <td>https://user-images.githubusercontent.com/107062967/207509561-b022b95e-2661-4c0b-80ce-e5f31fc94a66.mp4</td>
         <td>Handwritten texts</td>
     </tr>
 </table>
