@@ -45,6 +45,8 @@
 
 ## Results
 
+Below are some of the interesting results we have obtained. <br>
+
 <table border="5" bordercolor="black" align="center">
     <tr>
         <th>Input Image</th>
