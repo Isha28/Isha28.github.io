@@ -7,6 +7,7 @@
 <ul>
  <li><a href="https://github.com/Isha28/639-CV">Github Respository</a></li>
  <li><a href="https://docs.google.com/presentation/d/19177M2pjcrT509W3bB0UD_SGiLLfeW4iKsNmIHVUrs8/edit#slide=id.p">Presentation Slides</a></li>
+ <li><a href="https://drive.google.com/file/d/1GzZdmT8tNiGnaFwRqif1GAU-ZawtdpSE/view?usp=sharing">Presentation Video</a></li>
 </ul>
 
 ## The Problem
