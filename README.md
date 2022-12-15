@@ -158,6 +158,9 @@ score of 6.58. Our solution achieved an accuracy of around 88.33% in terms of le
 <p align="justify">Next we are going to evaluate the text to speech. As we saw earlier in the results section the TTS was fairly accurate in reading the text whether it was wrong or not. However, there were some discrepancies in the audio files. After some more testing we found that these audio files could be fixed simply by adding a period at the end of the sentence. Here are the adjusted audio files: <br>
      <audio controls>
           <source src="menu_fixed.mp4" type="audio/mp4">
+     </audio>
+     <br>
+     <audio controls>
           <source src="sign_fixed.mp4" type="audio/mp4">
      </audio>
      <br>
