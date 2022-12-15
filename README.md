@@ -143,7 +143,7 @@
 </table>
 
 ## Evaluation
-<p align="justify">We evaluated the accuracy of text retrieved from image using recognition rate, and error rate. Our OCR model performance is evaluated by calculating Normalized Character Error Rate (CERNorm) and Word Error Rate (WER). These metrics show the extent to which our OCR module transcribed text and how the ground truth text differ from each other. CER and WER represent the number of character/word substitutions or deletions, or insertions needed to transform one word/sentence into another respectively. Both of these quantitative metric systems are based on the Levenshtein distance.<br>
+<p align="justify">We evaluated the accuracy of text retrieved from image using recognition rate, and error rate. Our OCR model performance is evaluated by calculating Normalized Character Error Rate (CERNorm) and Word Error Rate (WER). These metrics show the extent to which our OCR module transcribed text and how the ground truth text differ from each other. CER and WER represent the number of character/word substitutions or deletions, or insertions needed to transform one word/sentence into another respectively. Both of these quantitative metric systems are based on the Levenshtein distance.</p><br>
 
 <center><img src="formula1.png" alt="" border=3 height=50 width=100></center><br>
 <center><img src="formula2.png" alt="" border=3 height=50 width=100></center><br>
@@ -157,18 +157,19 @@ where,
  <li>Nw : Total number of words in the reference in case of WER</li>
 </ul>
 
-We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
-score of 6.58% and Word Error Rate score of 18.91%. Our solution achieved an <strong>accuracy</strong> of around <strong>88.33%</strong> in terms of character recognition rate over the testing dataset.</p>
+<p align="justify">We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate score of 6.58% and Word Error Rate score of 18.91%. Our solution achieved an <strong>accuracy</strong> of around <strong>88.33%</strong> in terms of character recognition rate over the testing dataset.</p>
 
 <p align="justify">We have evaluated our text to speech solution. As we saw earlier in the results section the TTS was fairly accurate in reading the text. However, there were some discrepancies in the audio files. After some more testing we found that these audio files could be fixed simply by adding a period at the end of the sentence. <br>Here is the adjusted audio file for the food allergy text:<br>
      <audio controls>
           <source src="menu_fixed.mp4" type="audio/mp4"> 
      </audio>
      <br>
+     <br>
 Here is the adjusted audio file for the road sign text: <br>
      <audio controls>
 	  <source src="sign_fixed.mp4" type="audio/mp4">
      </audio>
+     <br>
      <br>
      This begs the question on what is truly wrong with the TTS solution, as it seems that it can handle most of the text that comes its way. Perhaps this problem could be solved by training our own models, but this problem may stem from a deeper issue caused by the source code. Furthermore, it seems that after some further testing the discrepancies seem to occur at random. For example, the TTS struggled with the singular words 'You' and 'Road', but after using these words in a sentence like 'How are you today' the discrepancy disappeared, regardless of the punctuation. Ultimately, further research is required in order to fully debug the TTS solution, but in its current state it is accurate enough for our purposes.
 </p>
