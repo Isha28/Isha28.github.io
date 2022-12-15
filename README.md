@@ -179,7 +179,7 @@ Here is the adjusted audio file for the road sign text: <br>
 
 ## Future Work
 
-<p align="justify">In this project, we have only considered the alpha-numeric data associated with the image. To extend this study, we can also consider the signs, symbols, diagrams associated with the image to generate speech to provide a complete information. Image pre-processing techniques can be enhanced further to reduce the obtained error rate while extracting text from image. 
+<p align="justify">In this project, we have only considered the alpha-numeric data associated with the image. To extend this study, we can also consider the signs, symbols, diagrams associated with the image to generate speech to provide a complete information. Image pre-processing techniques can be enhanced further to reduce the obtained error rate while extracting text from image.</p> 
 
 ## References
 <ol>
