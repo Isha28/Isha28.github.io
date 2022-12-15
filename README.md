@@ -2,7 +2,7 @@
 
 #### Erik Pheng Kong Chang, Isha Padmanaban, Lakshmi Muraleedharan Nair
 
-#### Link to Github Repository: https://github.com/Isha28/639-CV
+#### Link to Github Repository: <a href="https://github.com/Isha28/639-CV">https://github.com/Isha28/639-CV</a>
 
 ## The Problem
 
