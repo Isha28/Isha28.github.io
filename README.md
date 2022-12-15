@@ -2,6 +2,8 @@
 
 #### Erik Pheng Kong Chang, Isha Padmanaban, Lakshmi Muraleedharan Nair
 
+#### Link to Github Repository: https://github.com/Isha28/639-CV
+
 ## The Problem
 
 <p align="justify">The problem we are trying to solve is providing access to digital images for the visually impaired. In 2015, there was an estimated 253 million people world wide who are visually impaired. This means that many of them have limited access to the digital world as most of it is reliant on sight. One way that visually impaired people navigate the internet is through text to speech applications. However, this method does have its limitations because these simple text to speech solutions cannot read the text from images.</p>
@@ -152,6 +154,15 @@ where,
 
 We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
 score of 6.58. Our solution achieved an accuracy of around 88.33% in terms of letter recognition rate over the testing dataset.</p>
+
+<p align="justify">Next we are going to evaluate the text to speech. As we saw earlier in the results section the TTS was fairly accurate in reading the text whether it was wrong or not. However, there were some discrepancies in the audio files. After some more testing we found that these audio files could be fixed simply by adding a period at the end of the sentence. Here are the adjusted audio files: <br>
+     <audio controls>
+          <source src="menu_fixed.mp4" type="audio/mp4">
+          <source src="sign_fixed.mp4" type="audio/mp4">
+     </audio>
+     <br>
+     This begs the question on what is truly wrong with the TTS solution, as it seems that it can handle anything that comes its way. Perhaps this problem could be solved by training our own models, but this problem may be a deeper issue caused by the source code. It also seems that after further testing the discrepancies seem to occur at random. For example, the TTS struggled with the singular words 'You' and 'Road', but after using these words in an extended sentence the discrepency disapeared, regardless of punctuation. Ultimately, further research is required in order to fully debug the TTS solution, but in its current state it is accurate enough for our purposes.
+</p>
 
 ## References
 <ol>
