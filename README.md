@@ -1,6 +1,6 @@
 # Vision For Vision - Image to Speech Translation
 
-#### Erik Pheng Kong Chang, Isha Padmanaban, Lakshmi Muraleedharan Nair
+#### Erik Pheng Kong Chang, Isha Padmanaban, Lakshmi Muraleedharan Nair (Dropped course)
 
 ### Links
 
