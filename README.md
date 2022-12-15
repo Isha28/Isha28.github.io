@@ -164,7 +164,7 @@ score of 6.58. Our solution achieved an accuracy of around 88.33% in terms of le
           <source src="sign_fixed.mp4" type="audio/mp4">
      </audio>
      <br>
-     This begs the question on what is truly wrong with the TTS solution, as it seems that it can handle anything that comes its way. Perhaps this problem could be solved by training our own models, but this problem may be a deeper issue caused by the source code. It also seems that after further testing the discrepancies seem to occur at random. For example, the TTS struggled with the singular words 'You' and 'Road', but after using these words in an extended sentence the discrepency disapeared, regardless of punctuation. Ultimately, further research is required in order to fully debug the TTS solution, but in its current state it is accurate enough for our purposes.
+     This begs the question on what is truly wrong with the TTS solution, as it seems that it can handle anything that comes its way. Perhaps this problem could be solved by training our own models, but this problem may be a deeper issue caused by the source code. Furthermore, it seems that after further testing the discrepancies seem to occur at random. For example, the TTS struggled with the singular words 'You' and 'Road', but after using these words in an extended sentence the discrepancy disappeared, regardless of the punctuation. Ultimately, further research is required in order to fully debug the TTS solution, but in its current state it is accurate enough for our purposes.
 </p>
 
 ## References
