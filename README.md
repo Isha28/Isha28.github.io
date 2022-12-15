@@ -6,7 +6,7 @@
 
 ## The Problem
 
-<p align="justify">The problem we are trying to solve is providing access to digital images for the visually impaired. In 2015, there was an estimated 253 million people world wide who are visually impaired. This means that many of them have limited access to the digital world as most of it is reliant on sight. One way that visually impaired people navigate the internet is through text to speech applications. However, this method does have its limitations because these simple text to speech solutions cannot read the text from images.</p>
+<p align="justify">The problem we are trying to solve is providing access to digital images for the visually impaired. In 2022 2.2 billion people are reported to have a near or distance vision impairment. This means that many of them have limited access to the digital world as most of it is reliant on sight. One way that visually impaired people navigate the internet is through text to speech applications. However, this method does have its limitations because these simple text to speech solutions cannot read the text from images.</p>
 
 <p align="justify">This problem is <strong>important</strong> because it allows visually challenged people to get a deeper enjoyment and utilization of the internet and perhaps help them navigate the outside world. Ultimately, this all allows them to be more autonomous in the real world and online.</p>
 
@@ -54,7 +54,7 @@
             <source src="handwritten1_preprocess.mp4" type="audio/mp4">
           </audio>
         </td>
-        <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
+        <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract output is not accurate.</td>
     </tr>
     <tr>
         <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
@@ -64,7 +64,7 @@
             <source src="handwritten1_preprocess_res.mp4" type="audio/mp4">
           </audio>
         </td>
-        <td>Handwritten text. Proposed <br>image pre-processing is applied. <br>Tesseract ouput is accurate. <br>Shows the importance of our <br>pre-processing techniques</td>
+        <td>Handwritten text. Proposed <br>image pre-processing is applied. <br>Tesseract output is accurate. <br>Shows the importance of our <br>pre-processing techniques</td>
     </tr>
     <tr>
         <td><img src="print_preprocess.png" alt="" border=3 height=150 width=300></td>
@@ -153,9 +153,9 @@ where,
 </ul>
 
 We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
-score of 6.58. Our solution achieved an accuracy of around 88.33% in terms of letter recognition rate over the testing dataset.</p>
+score of 6.58% and Word Error Rate score of 18.91%. Our solution achieved an <strong>accuracy</strong> of around <strong>88.33%</strong> in terms of character recognition rate over the testing dataset.</p>
 
-<p align="justify">Next we are going to evaluate the text to speech. As we saw earlier in the results section the TTS was fairly accurate in reading the text whether it was wrong or not. However, there were some discrepancies in the audio files. After some more testing we found that these audio files could be fixed simply by adding a period at the end of the sentence. <br>Here is the adjusted audio file for the food allergy text:<br>
+<p align="justify">We have evaluated our text to speech solution. As we saw earlier in the results section the TTS was fairly accurate in reading the text. However, there were some discrepancies in the audio files. After some more testing we found that these audio files could be fixed simply by adding a period at the end of the sentence. <br>Here is the adjusted audio file for the food allergy text:<br>
      <audio controls>
           <source src="menu_fixed.mp4" type="audio/mp4"> 
      </audio>
@@ -167,6 +167,14 @@ Here is the adjusted audio file for the road sign text: <br>
      <br>
      This begs the question on what is truly wrong with the TTS solution, as it seems that it can handle most of the text that comes its way. Perhaps this problem could be solved by training our own models, but this problem may stem from a deeper issue caused by the source code. Furthermore, it seems that after some further testing the discrepancies seem to occur at random. For example, the TTS struggled with the singular words 'You' and 'Road', but after using these words in a sentence like 'How are you today' the discrepancy disappeared, regardless of the punctuation. Ultimately, further research is required in order to fully debug the TTS solution, but in its current state it is accurate enough for our purposes.
 </p>
+
+## Conclusion
+
+<p align="justify">We have devised an end-to-end image to speech translation solution. In addition to the image pre-processing done in Tesseract OCR, we added further pre-processing techniques which improvised the text extracted from images. This solution provides better results and recognition rate with handwritten texts/noisy images.</p>
+
+## Future Work
+
+<p align="justify">In this project, we have only considered the alpha-numeric data associated with the image. To extend this study, we can also consider the signs, symbols, diagrams associated with the image to generate speech to provide a complete information. Image pre-processing techniques can be enhanced further to reduce the obtained error rate while extracting text from image. 
 
 ## References
 <ol>
