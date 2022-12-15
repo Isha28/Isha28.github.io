@@ -155,11 +155,11 @@ where,
 We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate 
 score of 6.58. Our solution achieved an accuracy of around 88.33% in terms of letter recognition rate over the testing dataset.</p>
 
-<p align="justify">Next we are going to evaluate the text to speech. As we saw earlier in the results section the TTS was fairly accurate in reading the text whether it was wrong or not. However, there were some discrepancies in the audio files. After some more testing we found that these audio files could be fixed simply by adding a period at the end of the sentence. Here is the adjusted audio file for the food allergy text: <br>
+<p align="justify">Next we are going to evaluate the text to speech. As we saw earlier in the results section the TTS was fairly accurate in reading the text whether it was wrong or not. However, there were some discrepancies in the audio files. After some more testing we found that these audio files could be fixed simply by adding a period at the end of the sentence. <br>Here is the adjusted audio file for the food allergy text:<br>
      <audio controls>
           <source src="menu_fixed.mp4" type="audio/mp4"> 
      </audio>
-     <br?
+     <br>
 Here is the adjusted audio file for the road sign text: <br>
      <audio controls>
 	  <source src="sign_fixed.mp4" type="audio/mp4">
