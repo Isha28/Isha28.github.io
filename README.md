@@ -57,7 +57,7 @@
         <td>Handwritten text. Image <br>pre-processing is not done. <br>Tesseract ouput is not accurate.</td>
     </tr>
     <tr>
-        <td><img src="handwritten1_preprocess.png" alt="" border=3 height=150 width=300></td>
+        <td><img src="handwritten1_preprocess_res.png" alt="" border=3 height=150 width=300></td>
         <td>This is a handwritten <br>example <br>Write as good as you can.</td>
         <td>
           <audio controls> 
