@@ -174,7 +174,7 @@ Here is the adjusted audio file for the road sign text: <br>
      </audio>
      <br>
      <br>
-     This begs the question on what is truly wrong with the TTS solution, as it seems that it can handle most of the text that comes its way. Perhaps this problem could be solved by training our own models, but this problem may stem from a deeper issue caused by the source code. Furthermore, it seems that after some further testing the discrepancies seem to occur at random. For example, the TTS struggled with the singular words 'You' and 'Road', but after using these words in a sentence like 'How are you today' the discrepancy disappeared, regardless of the punctuation. Ultimately, further research is required in order to fully debug the TTS solution, but in its current state it is accurate enough for our purposes.
+     This raises the question on what is truly wrong with the TTS solution, as it seems that it can handle most of the text that comes its way. Perhaps this problem could be solved by training our own models, but this problem may stem from a deeper issue caused by the source code. Furthermore, it seems that after some further testing the discrepancies seem to occur at random. For example, the TTS struggled with the singular words 'You' and 'Road', but after using these words in a sentence like 'How are you today' the discrepancy disappeared, regardless of the punctuation. Ultimately, further research is required in order to fully debug the TTS solution, but in its current state it is accurate enough for our purposes.
 </p>
 
 ## Conclusion
