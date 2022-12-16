@@ -5,14 +5,14 @@
 ### Links
 
 <ul>
- <li><a href="https://github.com/Isha28/639-CV">Github Respository</a></li>
+ <li><a href="https://github.com/Isha28/639-CV">Github Repository</a></li>
  <li><a href="https://docs.google.com/presentation/d/19177M2pjcrT509W3bB0UD_SGiLLfeW4iKsNmIHVUrs8/edit#slide=id.p">Presentation Slides</a></li>
  <li><a href="https://drive.google.com/file/d/1GzZdmT8tNiGnaFwRqif1GAU-ZawtdpSE/view?usp=sharing">Presentation Video</a></li>
 </ul>
 
-## The Problem
+## Motivation
 
-<p align="justify">The problem we are trying to solve is providing access to digital images for the visually impaired. In 2022 2.2 billion people are reported to have a near or distance vision impairment. This means that many of them have limited access to the digital world as most of it is reliant on sight. One way that visually impaired people navigate the internet is through text to speech applications. However, this method does have its limitations because these simple text to speech solutions cannot read the text from images.</p>
+<p align="justify">The problem we are trying to solve is providing access to digital images for the visually impaired. In 2022, 2.2 billion people are reported to have a near or distance vision impairment. This means that many of them have limited access to the digital world as most of it is reliant on sight. One way that visually impaired people navigate the internet is through text to speech applications. However, this method does have its limitations because these simple text to speech solutions cannot read the text from images. Thus, we propose <strong>Image to Speech Translation</strong> solution which takes an input image and extracts text from it. The extracted text is translated to speech.</p>
 
 <p align="justify">This problem is <strong>important</strong> because it allows visually challenged people to get a deeper enjoyment and utilization of the internet and perhaps help them navigate the outside world. Ultimately, this all allows them to be more autonomous in the real world and online.</p>
 
@@ -160,7 +160,7 @@ where,
  <li>Nw : Total number of words in the reference in case of WER</li>
 </ul>
 
-<p align="justify">We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate score of 6.58% and Word Error Rate score of 18.91%. Our solution achieved an <strong>accuracy</strong> of around <strong>88.33%</strong> in terms of character recognition rate over the testing dataset.</p>
+<p align="justify">We have considered a dataset of 200 images containing English letters in .jpg format with their equivalent text saved in .txt files to evaluate our solution. The dataset also contains difficult images, like images with high noise or blurriness. As we evaluated our solution over the dataset, we obtained a Normalized Character Error Rate score of 6.58% and Word Error Rate score of 18.91%. Our solution achieved an <strong>accuracy</strong> of around <strong>88.33%</strong> in terms of character recognition rate over the testing dataset. With our sample input data, we found that our image pre-processing techniques takes less time than OCR or TTS</p>
 
 <p align="justify">We have evaluated our text to speech solution. As we saw earlier in the results section the TTS was fairly accurate in reading the text. However, there were some discrepancies in the audio files. After some more testing we found that these audio files could be fixed simply by adding a period at the end of the sentence. <br>Here is the adjusted audio file for the food allergy text:<br>
      <audio controls>
@@ -179,7 +179,7 @@ Here is the adjusted audio file for the road sign text: <br>
 
 ## Conclusion
 
-<p align="justify">We have devised an end-to-end image to speech translation solution. In addition to the image pre-processing done in Tesseract OCR, we added further pre-processing techniques which improvised the text extracted from images. This solution provides better results and recognition rate with handwritten texts/noisy images.</p>
+<p align="justify">We have devised an end-to-end image to speech translation solution. In addition to the image pre-processing done in Tesseract OCR, we added further pre-processing techniques which improvised the text extracted from images as shown in the above results. This solution provides better results and recognition rate with handwritten texts/noisy images.</p>
 
 ## Future Work
 
